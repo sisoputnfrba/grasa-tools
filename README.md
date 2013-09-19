@@ -14,11 +14,11 @@ Usage:
 
 2) Formatear el disco binario
 
-	./format disco.bin
+	./grasa-format disco.bin
 
 3) Hacer un dump de sus estructuras internas.
 
-	./dump disco.bin
+	./grasa-dump disco.bin
 
 
 
