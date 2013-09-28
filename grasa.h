@@ -11,10 +11,10 @@ typedef struct grasa_header_t { // un bloque
 	uint32_t version;
 	uint32_t blk_bitmap;
 	uint32_t size_bitmap; // en bloques
-	unsigned char padding[4073];
+	unsigned char padding[4079];
 } GHeader;
 
-typedef struct grasa_file_t { // un cuarto de bloque (256 bytes)
+typedef struct grasa_file_t {
 	uint8_t state; // 0: borrado, 1: archivo, 2: directorio
 	unsigned char fname[GFILENAMELENGTH];
 	uint32_t parent_dir_block;
